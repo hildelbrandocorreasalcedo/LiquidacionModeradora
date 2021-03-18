@@ -39,13 +39,10 @@ namespace Entity
             {
                 CuotaModeradora = TopeMaximo;
             }
-
         }
-
         public override string ToString()
         {
             return $"{NumerodeLiquidacion};{Identificacion};{TipodeAfiliacion};{SalariodePaciente};{ValordeServicio};{Tarifa};{TopeMaximo};{CuotaModeradora}";
         }
-
     }
 }

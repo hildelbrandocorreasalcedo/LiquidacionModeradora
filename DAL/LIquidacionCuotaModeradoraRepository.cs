@@ -8,14 +8,14 @@ using System.IO;
 
 namespace DAL
 {
-    public class LIquidacionCuotaModeradoraRepository
+    public class LiquidacionCuotaModeradoraRepository
 
     {
 
         private string ruta = @"Liquidacioncuotamoderadoras.txt";
         public List<LiquidacionCuotaModeradora> liquidacionesCuotas;
 
-        public LIquidacionCuotaModeradoraRepository()
+        public LiquidacionCuotaModeradoraRepository()
         {
             liquidacionesCuotas = new List<LiquidacionCuotaModeradora>();
         }

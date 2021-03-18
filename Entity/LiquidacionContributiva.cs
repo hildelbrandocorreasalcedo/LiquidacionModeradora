@@ -8,7 +8,6 @@ namespace Entity
 {
     public class LiquidacionContributiva : LiquidacionCuotaModeradora
     {
-
         public LiquidacionContributiva(int numerodeLiquidacion, string identificacion, decimal salariodePaciente, decimal valordeServicio) :
             base(numerodeLiquidacion, identificacion, "contributiva", salariodePaciente, valordeServicio)
         {
@@ -27,7 +26,6 @@ namespace Entity
             {
                 Tarifa = (decimal)0.20;
             }
-            { }
         }
         public override void EstablecerTopemaximo()
         {

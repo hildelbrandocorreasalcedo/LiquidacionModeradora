@@ -8,7 +8,7 @@ using BLL;
 
 namespace LiquidacionModeradora
 {
-    class Program
+    public class Program
     {
         public static LiquidacionCuotaModeradoraService liquidacionescuotasService = new LiquidacionCuotaModeradoraService();
 

@@ -10,11 +10,11 @@ namespace BLL
 {
     public class LiquidacionCuotaModeradoraService
     {
-        private LIquidacionCuotaModeradoraRepository liquidacionescuotasRepositorio;
+        private LiquidacionCuotaModeradoraRepository liquidacionescuotasRepositorio;
 
         public LiquidacionCuotaModeradoraService()
         {
-            liquidacionescuotasRepositorio = new LIquidacionCuotaModeradoraRepository();
+            liquidacionescuotasRepositorio = new LiquidacionCuotaModeradoraRepository();
         }
         public string Guardar(LiquidacionCuotaModeradora liquidacioncuotamoderadora)
         {
